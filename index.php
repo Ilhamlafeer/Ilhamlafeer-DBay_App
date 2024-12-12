@@ -33,8 +33,8 @@
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
-            <a href="software.html">Softwares</a>
-            <a href="#courses">Courses</a>
+            <a href="software.php">Softwares</a>
+            <a href="courses.php">Courses</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
             <a href="#cart">Cart</a>
