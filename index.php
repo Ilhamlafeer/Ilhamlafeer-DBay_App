@@ -53,8 +53,8 @@
                 emerging developers and digital creators by exploring a wide range of digital products.</p>
 
             <div class="btn-box">
-                <a href="#softwares" class="btn">Explore Apps</a>
-                <a href="#contact" class="btn">Contact Us</a>
+                <a href="software.php" class="btn">Explore Apps</a>
+                <a href="contact.php" class="btn">Contact Us</a>
             </div>
         </div>
 
