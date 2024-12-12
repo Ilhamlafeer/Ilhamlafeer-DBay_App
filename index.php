@@ -82,12 +82,7 @@
                 <a href="#courses">Courses</a>
             </div>
         </div>
-    </section>
-
-        
-
-
-    
+    </section>    
 
     <!-- About Section Design -->
     <section class="about" id="about">
