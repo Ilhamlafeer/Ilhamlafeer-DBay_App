@@ -33,11 +33,11 @@
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
-            <a href="software.php">Softwares</a>
-            <a href="courses.php">Courses</a>
-            <a href="about.php">About</a>
-            <a href="contact.php">Contact</a>
-            <a href="cart.php">Cart</a>
+            <a href="software.php#software">Softwares</a>
+            <a href="courses.php#courses">Courses</a>
+            <a href="about.php#about">About</a>
+            <a href="contact.php#contact">Contact</a>
+            <a href="cart.php#cart">Cart</a>
             <span id="auth-links"></span>
         </nav>
     </header>
