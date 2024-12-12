@@ -145,6 +145,7 @@ productContainers.forEach(container => {
     }
 });
 
+
 // Example cart items
 let cartItems = [
     { name: "App Name 1", price: 29.99, quantity: 1 },
