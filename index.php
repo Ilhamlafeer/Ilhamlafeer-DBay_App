@@ -35,9 +35,9 @@
             <a href="#home" class="active">Home</a>
             <a href="software.php">Softwares</a>
             <a href="courses.php">Courses</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-            <a href="#cart">Cart</a>
+            <a href="about.php">About</a>
+            <a href="contact.php">Contact</a>
+            <a href="cart.php">Cart</a>
             <span id="auth-links"></span>
         </nav>
     </header>
@@ -77,9 +77,9 @@
             </ul>
             <h3>Featured Categories</h3>
             <div class="category-box">
-                <a href="#softwares">Apps</a>
-                <a href="#books">Books</a>
-                <a href="#courses">Courses</a>
+                <a href="software.php">Apps</a>
+                <a href="books.php">Books</a>
+                <a href="courses.php">Courses</a>
             </div>
         </div>
     </section>
