@@ -6,11 +6,11 @@
 <section class="softwares" id="softwares">
     <h2 class="heading">Popular <span>Apps</span></h2>
 
+    <div class="scroll-btns">
+        <button class="scroll-btn scroll-left"><i class='bx bx-chevron-left'></i></button>
+        <button class="scroll-btn scroll-right"><i class='bx bx-chevron-right'></i></button>
+    </div>
     <div class="product-container">
-        <div class="scroll-btns">
-            <button class="scroll-btn scroll-left"><i class='bx bx-chevron-left'></i></button>
-            <button class="scroll-btn scroll-right"><i class='bx bx-chevron-right'></i></button>
-        </div>
         <!-- Product 1 to 10-->
         <div class="product-card">
             <img src="images/product1.jpg" alt="Product 1">
