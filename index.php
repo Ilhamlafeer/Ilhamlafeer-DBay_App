@@ -14,7 +14,7 @@
     <meta name="description"
         content="DBay is a digital marketplace for startup apps, online courses, eBooks, and other digital products.">
     <meta name="keywords" content="DBay, Digital Marketplace, Startup Apps, Online Courses, eBooks, Digital Products">
-    <meta name="author" content="DBay Team">
+    <meta name="author" content="Mohamed Ilham">
 </head>
 
 <body>

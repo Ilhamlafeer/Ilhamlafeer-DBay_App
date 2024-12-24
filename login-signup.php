@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login / Sign Up</title>
-    <link rel="stylesheet" href="css/style.css"> <!-- Link to your CSS -->
+    <link rel="stylesheet" href="styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <style>
         /* Inline CSS for demonstration purposes, you can move this to your CSS file */
