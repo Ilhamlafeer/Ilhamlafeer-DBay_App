@@ -1,4 +1,4 @@
-<?php
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,7 +65,7 @@
     </style>
 </head>
 <body>
-
+<?php
 <div class="container">
     <div id="login-form">
         <h2>Login</h2>
@@ -143,7 +143,6 @@ document.querySelectorAll('form').forEach(form => {
     });
 });
 </script>
-
+?>
 </body>
 </html>
-?>
