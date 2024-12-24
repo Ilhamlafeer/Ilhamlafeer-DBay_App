@@ -1,4 +1,4 @@
-<?php
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -146,4 +146,3 @@ document.querySelectorAll('form').forEach(form => {
 
 </body>
 </html>
-?>
