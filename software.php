@@ -13,7 +13,7 @@
     <div class="product-container">
         <!-- Product 1 to 6-->
         <div class="product-card">
-            <img src="Images/Audacity.png" alt="Audacity">
+            <img src="images/Audacity.png" alt="Audacity">
             <h3></h3>
             <p>An Audio Editing App</p>
             <button class="btn buy-btn" data-product="1">Buy Now</button>

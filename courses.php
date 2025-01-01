@@ -14,7 +14,7 @@
         <div class="product-container">
             <!-- Product 1 to 6-->
             <div class="product-card">
-                <img src="Images/courses/web.jpg" alt="Web">
+                <img src="images/courses/web.jpg" alt="Web">
                 <h3>Web Development</h3>
                 <button class="btn buy-btn" data-product="1">Buy Now</button>
             </div>
