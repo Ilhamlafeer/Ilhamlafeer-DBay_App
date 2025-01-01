@@ -51,35 +51,10 @@ document.addEventListener('click', function(e) {
         isLoggedIn = false; // Update login status
         alert('You have logged out successfully!');
         // Redirect to home page or login page
-        window.location.href = 'login-signup.html'; // Example redirect
+        window.location.href = 'login-signup.html';
     }
 });
 
-
-// Add event listeners to all Buy Now buttons
-document.querySelectorAll('.buy-btn').forEach(button => {
-    button.addEventListener('click', function() {
-        if (!isLoggedIn) {
-            alert('You must be logged in to purchase a product. Please log in or sign up.');
-            window.location.href = 'login-signup.html'; // Redirect to login/signup page
-        } else {
-            const productId = this.getAttribute('data-product');
-            alert(`You have purchased product ${productId}!`);
-            // Implement further logic for the purchase
-        }
-    });
-});
-
-//Search Option
-document.querySelector('.search-btn').addEventListener('click', function() {
-    const searchTerm = document.querySelector('.search-input').value;
-    if (searchTerm) {
-        alert(`Searching for: ${searchTerm}`);
-        // Implement further logic to filter or fetch search results here
-    } else {
-        alert('Please enter a search term.');
-    }
-});
 
 // Function to calculate total price
 function calculateTotal() {
@@ -112,7 +87,7 @@ function removeItem(button) {
 }
 
 // Select all product containers and scroll buttons
-const productContainers = document.querySelectorAll('.product-container');
+const productContainers = document.querySelectorAll('.scroll-btn');
 
 productContainers.forEach(container => {
     const scrollLeftBtn = container.previousElementSibling.querySelector('.scroll-left');
@@ -144,7 +119,6 @@ productContainers.forEach(container => {
         scrollRightBtn.style.display = 'none';
     }
 });
-
 
 // Example cart items
 let cartItems = [

@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login / Sign Up</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/styles.css"> <!-- Link to your CSS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <style>
         /* Inline CSS for demonstration purposes, you can move this to your CSS file */
@@ -67,14 +66,15 @@
 <body>
 
 <div class="container">
+    <!-- Login Form -->
     <div id="login-form">
         <h2>Login</h2>
-        <form action="#" method="post">
+        <form action="process_login.php" method="POST">
             <div class="input-field">
-                <input type="text" placeholder="Username or Email" required>
+                <input type="text" name="email" placeholder="Username or Email" required>
             </div>
             <div class="input-field">
-                <input type="password" placeholder="Password" required>
+                <input type="password" name="password" placeholder="Password" required>
             </div>
             <button type="submit" class="btn">Login</button>
         </form>
@@ -83,17 +83,18 @@
         </div>
     </div>
 
+    <!-- Sign Up Form -->
     <div id="signup-form" style="display:none;">
         <h2>Sign Up</h2>
-        <form action="#" method="post">
+        <form action="process_signup.php" method="POST">
             <div class="input-field">
-                <input type="email" placeholder="Email Address" required>
+                <input type="email" name="email" placeholder="Email Address" required>
             </div>
             <div class="input-field">
-                <input type="password" placeholder="Password" required>
+                <input type="password" name="password" placeholder="Password" required>
             </div>
             <div class="input-field">
-                <input type="password" placeholder="Confirm Password" required>
+                <input type="password" name="confirm_password" placeholder="Confirm Password" required>
             </div>
             <button type="submit" class="btn">Create Account</button>
         </form>

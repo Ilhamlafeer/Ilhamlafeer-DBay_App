@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DBay - Digital Marketplace</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
 
     <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <meta name="description"
         content="DBay is a digital marketplace for startup apps, online courses, eBooks, and other digital products.">
     <meta name="keywords" content="DBay, Digital Marketplace, Startup Apps, Online Courses, eBooks, Digital Products">
-    <meta name="author" content="Mohamed Ilham">
+    <meta name="author" content="DBay Team">
 </head>
 
 <body>
@@ -33,11 +33,11 @@
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
-            <a href="software.php#software">Softwares</a>
-            <a href="courses.php#courses">Courses</a>
-            <a href="about.php#about">About</a>
-            <a href="contact.php#contact">Contact</a>
-            <a href="cart.php#cart">Cart</a>
+            <a href="software.php">Softwares</a>
+            <a href="courses.php">Courses</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#cart">Cart</a>
             <span id="auth-links"></span>
         </nav>
     </header>
@@ -53,8 +53,8 @@
                 emerging developers and digital creators by exploring a wide range of digital products.</p>
 
             <div class="btn-box">
-                <a href="software.php" class="btn">Explore Apps</a>
-                <a href="contact.php" class="btn">Contact Us</a>
+                <a href="#softwares" class="btn">Explore Apps</a>
+                <a href="#contact" class="btn">Contact Us</a>
             </div>
         </div>
 
@@ -82,7 +82,85 @@
                 <a href="courses.php">Courses</a>
             </div>
         </div>
+    </section>    
+
+    <!-- About Section Design -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>DBay</span></h2>
+
+        <div class="about-content">
+            <p>
+                DBay is a digital marketplace dedicated to providing a platform for startup developers and digital
+                creators. We offer a diverse range of digital products, including apps, online courses, eBooks, and
+                more. Our mission is to empower creators to reach a wider audience and provide customers with access to
+                the latest innovations.
+            </p>
+            <div class="btn-box btns">
+                <a href="#contact" class="btn">Learn More</a>
+            </div>
+        </div>
     </section>
+
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Us</span></h2>
+
+        <form action="#" method="post">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+
+                <div class="input-field">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Cart Section Design -->
+<section id="cart" class="cart">
+    <h2>Your Cart</h2>
+    
+    <table class="cart-table">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Price</th>
+                <th>Action</th> <!-- Column header for the Remove button -->
+            </tr>
+        </thead>
+        <tbody class="cart-items">
+            <!-- Cart Items will be populated here dynamically -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total:</td>
+                <td id="total-price">$0.00</td> 
+                <td></td> 
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="btn-box">
+        <button class="btn" onclick="checkout()">Checkout</button>
+    </div>
+</section>
+
 
     <!-- Footer Design -->
     <footer class="footer">
