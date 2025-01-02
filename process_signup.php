@@ -23,7 +23,9 @@ if ($result->num_rows > 0) {
     $sql = "INSERT INTO users (email, password) VALUES ('$email', '$password')";
     
     if ($connect->query($sql) === TRUE) {
-        echo "Sign up successful! You can now log in.";
+        $_SESSION['signup_success'] = "Login successful!"; // Store notification in session
+        header("Location: index.html"); // Redirect to index.html
+        exit(); 
     } else {
         echo "Error: " . $sql . "<br>" . $connect->error;
     }

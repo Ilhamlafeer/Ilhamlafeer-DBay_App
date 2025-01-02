@@ -11,7 +11,10 @@ $result = $connect->query($sql);
 
 if ($result->num_rows > 0) {
     // User found, login successful
-    echo "Login successful! </br>Go to <a href='index.php'>Home Page</a>";
+    $_SESSION['login_success'] = "Login successful!"; // Store notification in session
+    
+    header("Location: index.html"); // Redirect to index.html
+    exit(); 
 } else {
     // User not found, login failed
     echo "Invalid credentials!";
