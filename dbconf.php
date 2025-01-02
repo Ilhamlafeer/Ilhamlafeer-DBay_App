@@ -1,8 +1,8 @@
 <?php
 //This is separate file to connect the database
 //constant variable
-define('SERVERNAME', 'localhost');
-define('USERNAME', 'root');
+define('SERVERNAME', '127.0.0.1:3306');
+define('USERNAME', 'mariadb');
 define('PASSWORD', '');
 define('DBNAME', 'dbay');
 
