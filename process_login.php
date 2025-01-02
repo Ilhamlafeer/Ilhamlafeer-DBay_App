@@ -11,7 +11,7 @@ $result = $connect->query($sql);
 
 if ($result->num_rows > 0) {
     // User found, login successful
-    $_SESSION['login_success'] = "Login successful!"; // Store notification in session
+    $_SESSION['loggedin'] = "Login successful!"; // Store notification in session
     
     header("Location: index.php"); // Redirect to index
     exit(); 
