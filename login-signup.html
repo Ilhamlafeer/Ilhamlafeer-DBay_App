@@ -103,47 +103,5 @@
         </div>
     </div>
 </div>
-
-<script>
-// Toggle between Login and Sign Up forms
-document.getElementById('show-signup').addEventListener('click', function() {
-    document.getElementById('login-form').style.display = 'none';
-    document.getElementById('signup-form').style.display = 'block';
-});
-
-document.getElementById('show-login').addEventListener('click', function() {
-    document.getElementById('signup-form').style.display = 'none';
-    document.getElementById('login-form').style.display = 'block';
-});
-
-// Basic form validation
-document.querySelectorAll('form').forEach(form => {
-    form.addEventListener('submit', function(event) {
-        const inputs = this.querySelectorAll('input');
-        let valid = true;
-
-        inputs.forEach(input => {
-            if (!input.value) {
-                valid = false;
-            }
-        });
-
-        if (!valid) {
-            alert('Please fill in all fields.');
-            event.preventDefault(); // Prevent form submission
-        }
-
-        if (this.id === 'signup-form') {
-            const password = inputs[1].value; // Password
-            const confirmPassword = inputs[2].value; // Confirm Password
-            if (password !== confirmPassword) {
-                alert('Passwords do not match.');
-                event.preventDefault(); // Prevent form submission
-            }
-        }
-    });
-});
-</script>
-
 </body>
 </html>
