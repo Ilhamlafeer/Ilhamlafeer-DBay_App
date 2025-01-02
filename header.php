@@ -18,6 +18,10 @@
             <a href="index.php#about">About</a>
             <a href="index.php#contact">Contact</a>
             <a href="index.php#cart">Cart</a>
-            <span id="auth-links"></span>
+            <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true): ?>
+            <li><a href="logout.php">Logout</a></li>
+            <?php else: ?>
+            <li><a href="login.php">Login</a></li>
+            <?php endif; ?>
         </nav>
     </header>
