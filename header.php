@@ -15,9 +15,9 @@
             <a href="index.php">Home</a>
             <a href="software.php">Softwares</a>
             <a href="courses.php">Courses</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-            <a href="#cart">Cart</a>
+            <a href="index.php#about">About</a>
+            <a href="index.php#contact">Contact</a>
+            <a href="index.php#cart">Cart</a>
             <span id="auth-links"></span>
         </nav>
     </header>
