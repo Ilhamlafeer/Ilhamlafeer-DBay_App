@@ -13,7 +13,7 @@ if ($result->num_rows > 0) {
     // User found, login successful
     $_SESSION['login_success'] = "Login successful!"; // Store notification in session
     
-    header("Location: index.html"); // Redirect to index.html
+    header("Location: index.php"); // Redirect to index
     exit(); 
 } else {
     // User not found, login failed

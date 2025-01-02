@@ -24,7 +24,7 @@ if ($result->num_rows > 0) {
     
     if ($connect->query($sql) === TRUE) {
         $_SESSION['signup_success'] = "Login successful!"; // Store notification in session
-        header("Location: index.html"); // Redirect to index.html
+        header("Location: index.php");
         exit(); 
     } else {
         echo "Error: " . $sql . "<br>" . $connect->error;
