@@ -12,7 +12,7 @@
         <div class="bx bx-menu" id="menu-icon"></div>
 
         <nav class="navbar">
-            <a href="#home" class="active">Home</a>
+            <a href="index.php">Home</a>
             <a href="software.php">Softwares</a>
             <a href="courses.php">Courses</a>
             <a href="#about">About</a>
