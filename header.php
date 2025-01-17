@@ -1,6 +1,6 @@
     <!-- Header Design -->
     <header class="header">
-        <a href="#" class="logo">
+        <a href="index.php" class="logo">
             <img src="Logo/Logo.png" alt="DBay Logo" class="logo-img">
         </a>
 
