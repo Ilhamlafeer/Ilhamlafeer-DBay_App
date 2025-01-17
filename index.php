@@ -130,7 +130,7 @@
         <tfoot>
             <tr>
                 <td colspan="4">Total:</td>
-                <td id="total-price">$0.00</td> 
+                <td id="total-price">0.00</td> 
                 <td></td> 
             </tr>
         </tfoot>
