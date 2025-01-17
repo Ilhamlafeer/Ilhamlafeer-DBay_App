@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -100,7 +99,7 @@
             </div>
 
             <div class="textarea-field">
-                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <textarea name="message" cols="10" rows="10" placeholder="Your Message" required></textarea>
                 <span class="focus"></span>
             </div>
 
@@ -146,7 +145,7 @@
     <!-- Footer Design -->
     <footer class="footer">
         <div class="footer-text">
-            <p>&copy; 2024 DBay - All Rights Reserved (LM. Ilham - BSc (Hons) in  Computer Science).</p>
+            <p>&copy; 2024 DBay - All Rights Reserved (LM. Ilham - BSc (Hons) in Computer Science).</p>
         </div>
         <div class="footer-iconTop">
             <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
@@ -155,4 +154,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
