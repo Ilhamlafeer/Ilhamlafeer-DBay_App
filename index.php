@@ -39,9 +39,9 @@
         </div>
 
         <div class="home-sci">
-            <a href="#"><i class='bx bxl-facebook'></i></a>
-            <a href="#"><i class='bx bxl-linkedin'></i></a>
-            <a href="#"><i class='bx bxl-gmail'></i></a>
+            <a href="www.facebook.com"><i class='bx bxl-facebook'></i></a>
+            <a href="www.linkedin.com"><i class='bx bxl-linkedin'></i></a>
+            <a href="www.gmail.com"><i class='bx bxl-gmail'></i></a>
         </div>
 
         <div class="home-imgHover"></div>
